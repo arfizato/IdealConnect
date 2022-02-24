@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+
+*{
+    margin: 0;
+
+}
+.home{
+    background-color: #0D123D;
+    color: #fff;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navbar and it's contents  */
+.navbar{
+    font-size: 22px;
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-end;    
+}
+.navContent{
+    margin: 1em 1.75em;
+}
+.navbarContact{
+    margin-right: 3.5em;
+    padding: 0 .3em;
+    border: 1px solid #fff ;
+    border-radius: 30px;
+}
+/* the home section  */
+.homeContainer{
+    display: flex;
+    width: 100%;
+}
+.homeText{
+    width: 40%;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homeText .welcome{
+    font-size: 50px;
+    font-weight: 600;
+    margin: .5em 0;
+    line-height: 55px;
+}
+.homeText .description{
+    font-size: 20px;
+    padding-right: .5em ;
+}
+.startButton{
+    background-color: #fff;
+    border-radius: 50px;
+    width: fit-content;
+    padding: .2em 1.2em;
+    font-size: 35px;
+    margin-top: 1em;
+}
+.startButton a{
+    text-decoration: none;
+    color: #0D123D;
+    font-weight: 600;
+}
+.homeImg{
+    width: 40%;
+    height: 100%;  
+    margin-right: 150px;  
+}
+.homeImg img{
+    transform: scale(.8);
+}
+
+/* sponsor section  */
+.sponsors{
+    display: flex;
+    margin: 5px 75px 0 75px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponsors1{
+    margin-top: 30px;
+}
+.sponsor{
+    height: fit-content;
+    margin: 0 10px;
+}
