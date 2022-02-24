@@ -5,9 +5,13 @@
     font-family: 'Poppins', sans-serif;
 
 }
+html{ 
+    scroll-behavior: smooth;}
+a{
+    text-decoration: none;
+}
 body{
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 .home{
     background-color: #0D123D;
@@ -27,6 +31,9 @@ body{
     font-weight: 100;
     display: flex;
     justify-content: flex-end;    
+}
+.navbar a{
+    color: #fff;
 }
 .navContent{
     margin: 2em 1.75em;
@@ -248,6 +255,10 @@ body{
     display: flex;
     justify-content: space-evenly;
     font-weight: 300;
+    color: #fff;
+}
+.footerNavbar a{
+    color: #fff;
 }
 
 .footerNavContent{
